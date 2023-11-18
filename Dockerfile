@@ -16,6 +16,6 @@ poetry install --only main \
 --no-ansi \
 --no-cache
 
-EXPOSE 1399
+EXPOSE 7860
 
-ENTRYPOINT ["poetry", "run", "chainlit", "run", "-w", "--host", "0.0.0.0", "--port", "1399", "app.py"]
+ENTRYPOINT ["poetry", "run", "chainlit", "run", "-w", "--host", "0.0.0.0", "--port", "7860", "app.py"]

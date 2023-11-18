@@ -1,6 +1,7 @@
 *__pycache__/
-./.venv/
-./.gitignore/
-./.python-version
-./Makefile
-./README.md
+/.venv/
+/.gitignore/
+/.python-version
+Makefile
+README.md
+/.env

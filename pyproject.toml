@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "myfirstllm-app"
+version = "0.1.0"
+description = "env for my first llm app"
+authors = ["Juan Ovalle"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.13"
+openai = "^1.3.3"
+chainlit = "^0.7.603"
+python-dotenv = "^1.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.11.0"
+isort = "^5.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

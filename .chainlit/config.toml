@@ -32,7 +32,7 @@ multi_modal = false
 name = "MadGPT"
 
 # Show the readme while the conversation is empty.
-show_readme_as_default = false
+show_readme_as_default = true
 
 # Description of the app and chatbot. This is used for HTML tags.
 # description = "This is MadGPT, a (rude) helpful assistant that is here to help you."
